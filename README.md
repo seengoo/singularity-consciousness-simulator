@@ -227,7 +227,10 @@ python singularity_demo.py single [seed]
 意识构架模拟器/
 ├── README.md                # 本文档
 ├── singularity_sim.py       # 完整模拟器（交互+批量+对比）
-└── singularity_demo.py      # 轻量版（命令行批量）
+├── singularity_demo.py      # 轻量版（命令行批量）
+├── 启动模拟器.bat           # Windows 启动器
+├── 奇点模拟器.exe           # 独立可执行文件（无需 Python）
+└── .gitignore
 ```
 
 ---
