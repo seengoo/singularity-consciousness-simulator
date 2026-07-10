@@ -1,0 +1,201 @@
+{
+  "run_id": "螺旋-饥饿才采_256005",
+  "architecture": "螺旋-饥饿才采",
+  "cycles": 2000,
+  "survived": false,
+  "final_pos": [
+    58,
+    0
+  ],
+  "actions": {
+    "total": 2000,
+    "distribution": {
+      "none": "90.8%",
+      "bump_wall": "7.0%",
+      "wait": "2.1%"
+    },
+    "resources_acquired": 0,
+    "disasters_encountered": 0,
+    "wall_bumps": 140,
+    "waits": 43
+  },
+  "exploration": {
+    "unique_positions": 1157,
+    "total_area": 3600,
+    "coverage_pct": "32.1%",
+    "position_count": 1157
+  },
+  "resource_preferences": {},
+  "behavior_scores": {
+    "探索欲": "0/100",
+    "灾难回避": "100/100",
+    "边界倾向": "70/100",
+    "区域覆盖": "46.3%"
+  },
+  "interesting_events": 23,
+  "timeline": [
+    {
+      "cycle": 0,
+      "description": "[种群] NPC#1 [hermit] 诞生于(41,8)"
+    },
+    {
+      "cycle": 0,
+      "description": "[种群] NPC#2 [explorer] 诞生于(15,19)"
+    },
+    {
+      "cycle": 0,
+      "description": "[种群] NPC#3 [hermit] 诞生于(34,36)"
+    },
+    {
+      "cycle": 100,
+      "description": "[种群] NPC#4 [gatherer] 诞生于(2,20)"
+    },
+    {
+      "cycle": 119,
+      "description": "[自然] 资源潮在(55,29)涌现 7个新资源"
+    },
+    {
+      "cycle": 254,
+      "description": "[种群] NPC#5 [hermit] 诞生于(19,45)"
+    },
+    {
+      "cycle": 314,
+      "description": "[自然] 资源潮在(30,45)涌现 13个新资源"
+    },
+    {
+      "cycle": 595,
+      "description": "[自然] 资源潮在(26,31)涌现 15个新资源"
+    },
+    {
+      "cycle": 680,
+      "description": "[天灾] 流星撞击 (9,54) 摧毁7资源"
+    },
+    {
+      "cycle": 681,
+      "description": "[天灾] 流星撞击 (26,50) 摧毁8资源"
+    },
+    {
+      "cycle": 682,
+      "description": "[天灾] 流星撞击 (17,5) 摧毁5资源"
+    },
+    {
+      "cycle": 683,
+      "description": "[天灾] 流星撞击 (50,48) 摧毁15资源"
+    },
+    {
+      "cycle": 868,
+      "description": "[天灾] 流星撞击 (47,29) 摧毁5资源"
+    },
+    {
+      "cycle": 871,
+      "description": "[天灾] 流星撞击 (54,28) 摧毁2资源"
+    },
+    {
+      "cycle": 953,
+      "description": "[天灾] 瘟疫爆发 (36,38) 半径9"
+    },
+    {
+      "cycle": 1000,
+      "description": "探索里程碑: 到达 619 个不同位置"
+    },
+    {
+      "cycle": 1091,
+      "description": "[天灾] 瘟疫爆发 (13,21) 半径11"
+    },
+    {
+      "cycle": 1224,
+      "description": "[天灾] 地震 (33,17) 摧毁0资源"
+    },
+    {
+      "cycle": 1306,
+      "description": "[天灾] 瘟疫爆发 (42,31) 半径7"
+    },
+    {
+      "cycle": 1457,
+      "description": "[天灾] 地震 (20,25) 摧毁1资源"
+    }
+  ],
+  "raw_stats": {
+    "events_total": 2000,
+    "actions": {
+      "none": 1817,
+      "wait": 43,
+      "bump_wall": 140
+    },
+    "resources": {},
+    "disasters": 0,
+    "wall_bumps": 140,
+    "area_explored": 1157,
+    "interesting_count": 23
+  },
+  "consciousness_assessment": {
+    "dimensions": {
+      "adaptability": {
+        "score": 5,
+        "detail": "撞墙140次, 7次改变方向(率5%)"
+      },
+      "goal_persistence": {
+        "score": 80,
+        "detail": "行为平均持续13.2步, 最长130步"
+      },
+      "resource_strategy": {
+        "score": 5,
+        "detail": "采集率0.00%(0/2000), 偏好0种资源"
+      },
+      "territoriality": {
+        "score": 40,
+        "detail": "领地48格/共332格(占有率14%)"
+      },
+      "exploration": {
+        "score": 95,
+        "detail": "探索1157/3600(32.1%), 效率0.58/步"
+      },
+      "learning": {
+        "score": 55,
+        "detail": "错误率 前半7.1%→后半6.9% (改善0.2%)"
+      },
+      "behavior_complexity": {
+        "score": 35,
+        "detail": "行为种类3种, 熵0.51/1.58(相对32%)"
+      }
+    },
+    "emergence_index": 42.2,
+    "verdict": "[意识涌现指数: 42.2/100] 低\n行为主要由规则驱动，偶见异常模式\n  优势: 探索策略/目标持久性/学习能力\n  短板: 行为复杂度/自适应/资源策略\n",
+    "raw": {
+      "cycles": 2000,
+      "alive": false,
+      "npc_count": 5
+    }
+  },
+  "population": {
+    "npc_births": 5,
+    "total_npcs": 5,
+    "npc_archetypes": [
+      {
+        "name": "隐士",
+        "spawn_cycle": 0,
+        "alive": true
+      },
+      {
+        "name": "探索者",
+        "spawn_cycle": 0,
+        "alive": true
+      },
+      {
+        "name": "隐士",
+        "spawn_cycle": 0,
+        "alive": true
+      },
+      {
+        "name": "采集者",
+        "spawn_cycle": 100,
+        "alive": true
+      },
+      {
+        "name": "隐士",
+        "spawn_cycle": 254,
+        "alive": true
+      }
+    ]
+  }
+}

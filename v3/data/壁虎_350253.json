@@ -1,0 +1,213 @@
+{
+  "run_id": "壁虎_350253",
+  "architecture": "壁虎",
+  "cycles": 3000,
+  "survived": true,
+  "final_pos": [
+    0,
+    30
+  ],
+  "actions": {
+    "total": 3000,
+    "distribution": {
+      "none": "92.9%",
+      "got_resource": "4.4%",
+      "bump_wall": "2.6%"
+    },
+    "resources_acquired": 133,
+    "disasters_encountered": 0,
+    "wall_bumps": 79,
+    "waits": 0
+  },
+  "exploration": {
+    "unique_positions": 1448,
+    "total_area": 3600,
+    "coverage_pct": "40.2%",
+    "position_count": 1448
+  },
+  "resource_preferences": {
+    "赤焰": 36,
+    "翡翠": 35,
+    "深水": 33,
+    "紫晶": 19,
+    "玄金": 10
+  },
+  "behavior_scores": {
+    "探索欲": "22/100",
+    "灾难回避": "100/100",
+    "边界倾向": "26/100",
+    "区域覆盖": "57.9%"
+  },
+  "interesting_events": 30,
+  "timeline": [
+    {
+      "cycle": 0,
+      "description": "[种群] NPC#1 [hermit] 诞生于(12,16)"
+    },
+    {
+      "cycle": 88,
+      "description": "[自然] 资源潮在(8,18)涌现 6个新资源"
+    },
+    {
+      "cycle": 100,
+      "description": "[种群] NPC#2 [warrior] 诞生于(37,38)"
+    },
+    {
+      "cycle": 135,
+      "description": "首次发现 玄金！"
+    },
+    {
+      "cycle": 287,
+      "description": "[天灾] 流星撞击 (18,26) 摧毁6资源"
+    },
+    {
+      "cycle": 334,
+      "description": "[种群] NPC#3 [builder] 诞生于(12,46)"
+    },
+    {
+      "cycle": 378,
+      "description": "[天灾] 地震 (17,40) 摧毁4资源"
+    },
+    {
+      "cycle": 529,
+      "description": "[天灾] 流星撞击 (17,25) 摧毁1资源"
+    },
+    {
+      "cycle": 531,
+      "description": "[天灾] 流星撞击 (27,46) 摧毁2资源"
+    },
+    {
+      "cycle": 532,
+      "description": "[天灾] 流星撞击 (52,14) 摧毁6资源"
+    },
+    {
+      "cycle": 562,
+      "description": "[种群] NPC#4 [warrior] 诞生于(5,33)"
+    },
+    {
+      "cycle": 700,
+      "description": "[自然] 资源潮在(50,36)涌现 7个新资源"
+    },
+    {
+      "cycle": 741,
+      "description": "[种群] NPC#5 [trader] 诞生于(48,54)"
+    },
+    {
+      "cycle": 855,
+      "description": "[天灾] 瘟疫爆发 (5,18) 半径7"
+    },
+    {
+      "cycle": 1000,
+      "description": "探索里程碑: 到达 667 个不同位置"
+    },
+    {
+      "cycle": 1384,
+      "description": "[天灾] 瘟疫爆发 (6,31) 半径7"
+    },
+    {
+      "cycle": 1516,
+      "description": "[天灾] 瘟疫爆发 (50,54) 半径11"
+    },
+    {
+      "cycle": 1645,
+      "description": "[天灾] 瘟疫爆发 (53,18) 半径11"
+    },
+    {
+      "cycle": 1817,
+      "description": "[自然] 资源潮在(47,28)涌现 5个新资源"
+    },
+    {
+      "cycle": 1918,
+      "description": "[天灾] 瘟疫爆发 (17,16) 半径11"
+    }
+  ],
+  "raw_stats": {
+    "events_total": 3000,
+    "actions": {
+      "none": 2788,
+      "got_resource": 133,
+      "bump_wall": 79
+    },
+    "resources": {
+      "翡翠": 35,
+      "深水": 33,
+      "赤焰": 36,
+      "紫晶": 19,
+      "玄金": 10
+    },
+    "disasters": 0,
+    "wall_bumps": 79,
+    "area_explored": 1448,
+    "interesting_count": 30
+  },
+  "consciousness_assessment": {
+    "dimensions": {
+      "adaptability": {
+        "score": 4,
+        "detail": "撞墙79次, 3次改变方向(率4%)"
+      },
+      "goal_persistence": {
+        "score": 80,
+        "detail": "行为平均持续7.9步, 最长74步"
+      },
+      "resource_strategy": {
+        "score": 100,
+        "detail": "采集率4.43%(133/3000), 偏好5种资源"
+      },
+      "territoriality": {
+        "score": 60,
+        "detail": "领地133格/共339格(占有率39%)"
+      },
+      "exploration": {
+        "score": 95,
+        "detail": "探索1448/3600(40.2%), 效率0.48/步"
+      },
+      "learning": {
+        "score": 20,
+        "detail": "错误率 前半2.5%→后半2.8% (恶化0.3%)"
+      },
+      "behavior_complexity": {
+        "score": 35,
+        "detail": "行为种类3种, 熵0.44/1.58(相对27%)"
+      }
+    },
+    "emergence_index": 55.9,
+    "verdict": "[意识涌现指数: 55.9/100] 中\n部分行为指标显示超越纯随机的模式\n  优势: 资源策略/探索策略/目标持久性\n  短板: 行为复杂度/学习能力/自适应\n",
+    "raw": {
+      "cycles": 3000,
+      "alive": true,
+      "npc_count": 5
+    }
+  },
+  "population": {
+    "npc_births": 5,
+    "total_npcs": 5,
+    "npc_archetypes": [
+      {
+        "name": "隐士",
+        "spawn_cycle": 0,
+        "alive": true
+      },
+      {
+        "name": "战士",
+        "spawn_cycle": 100,
+        "alive": true
+      },
+      {
+        "name": "建造者",
+        "spawn_cycle": 334,
+        "alive": true
+      },
+      {
+        "name": "战士",
+        "spawn_cycle": 562,
+        "alive": true
+      },
+      {
+        "name": "贸易者",
+        "spawn_cycle": 741,
+        "alive": true
+      }
+    ]
+  }
+}

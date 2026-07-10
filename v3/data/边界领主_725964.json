@@ -1,0 +1,211 @@
+{
+  "run_id": "边界领主_725964",
+  "architecture": "边界领主",
+  "cycles": 2506,
+  "survived": false,
+  "final_pos": [
+    9,
+    59
+  ],
+  "actions": {
+    "total": 2506,
+    "distribution": {
+      "none": "97.3%",
+      "bump_wall": "1.7%",
+      "got_resource": "1.0%"
+    },
+    "resources_acquired": 25,
+    "disasters_encountered": 0,
+    "wall_bumps": 42,
+    "waits": 0
+  },
+  "exploration": {
+    "unique_positions": 248,
+    "total_area": 3600,
+    "coverage_pct": "6.9%",
+    "position_count": 248
+  },
+  "resource_preferences": {
+    "赤焰": 9,
+    "深水": 8,
+    "翡翠": 6,
+    "紫晶": 2
+  },
+  "behavior_scores": {
+    "探索欲": "5/100",
+    "灾难回避": "100/100",
+    "边界倾向": "17/100",
+    "区域覆盖": "9.9%"
+  },
+  "interesting_events": 30,
+  "timeline": [
+    {
+      "cycle": 0,
+      "description": "[种群] NPC#1 [hermit] 诞生于(3,12)"
+    },
+    {
+      "cycle": 60,
+      "description": "[天灾] 地震 (12,24) 摧毁2资源"
+    },
+    {
+      "cycle": 100,
+      "description": "[种群] NPC#2 [explorer] 诞生于(19,2)"
+    },
+    {
+      "cycle": 105,
+      "description": "首次发现 深水！"
+    },
+    {
+      "cycle": 149,
+      "description": "[天灾] 流星撞击 (5,13) 摧毁5资源"
+    },
+    {
+      "cycle": 150,
+      "description": "[天灾] 流星撞击 (50,39) 摧毁5资源"
+    },
+    {
+      "cycle": 151,
+      "description": "[天灾] 流星撞击 (22,55) 摧毁4资源"
+    },
+    {
+      "cycle": 296,
+      "description": "[天灾] 地震 (28,28) 摧毁5资源"
+    },
+    {
+      "cycle": 334,
+      "description": "[种群] NPC#3 [trader] 诞生于(51,22)"
+    },
+    {
+      "cycle": 519,
+      "description": "[种群] NPC#4 [trader] 诞生于(47,37)"
+    },
+    {
+      "cycle": 580,
+      "description": "[天灾] 瘟疫爆发 (55,33) 半径5"
+    },
+    {
+      "cycle": 736,
+      "description": "[种群] NPC#5 [trader] 诞生于(47,40)"
+    },
+    {
+      "cycle": 780,
+      "description": "[天灾] 流星撞击 (52,40) 摧毁2资源"
+    },
+    {
+      "cycle": 781,
+      "description": "[天灾] 流星撞击 (28,48) 摧毁8资源"
+    },
+    {
+      "cycle": 879,
+      "description": "[天灾] 流星撞击 (8,8) 摧毁3资源"
+    },
+    {
+      "cycle": 881,
+      "description": "[天灾] 流星撞击 (26,40) 摧毁1资源"
+    },
+    {
+      "cycle": 1000,
+      "description": "探索里程碑: 到达 248 个不同位置"
+    },
+    {
+      "cycle": 1069,
+      "description": "[自然] 资源潮在(13,51)涌现 12个新资源"
+    },
+    {
+      "cycle": 1195,
+      "description": "[天灾] 瘟疫爆发 (12,53) 半径9"
+    },
+    {
+      "cycle": 1296,
+      "description": "[天灾] 瘟疫爆发 (25,37) 半径10"
+    }
+  ],
+  "raw_stats": {
+    "events_total": 2506,
+    "actions": {
+      "none": 2439,
+      "got_resource": 25,
+      "bump_wall": 42
+    },
+    "resources": {
+      "翡翠": 6,
+      "赤焰": 9,
+      "深水": 8,
+      "紫晶": 2
+    },
+    "disasters": 0,
+    "wall_bumps": 42,
+    "area_explored": 248,
+    "interesting_count": 30
+  },
+  "consciousness_assessment": {
+    "dimensions": {
+      "adaptability": {
+        "score": 2,
+        "detail": "撞墙42次, 1次改变方向(率2%)"
+      },
+      "goal_persistence": {
+        "score": 63,
+        "detail": "行为平均持续18.7步, 最长59步"
+      },
+      "resource_strategy": {
+        "score": 40,
+        "detail": "采集率1.00%(25/2506), 偏好4种资源"
+      },
+      "territoriality": {
+        "score": 40,
+        "detail": "领地25格/共279格(占有率9%)"
+      },
+      "exploration": {
+        "score": 30,
+        "detail": "探索248/3600(6.9%), 效率0.10/步"
+      },
+      "learning": {
+        "score": 40,
+        "detail": "错误率 前半1.7%→后半1.7% (无变化)"
+      },
+      "behavior_complexity": {
+        "score": 15,
+        "detail": "行为种类3种, 熵0.20/1.58(相对13%)"
+      }
+    },
+    "emergence_index": 30.1,
+    "verdict": "[意识涌现指数: 30.1/100] 低\n行为主要由规则驱动，偶见异常模式\n  优势: 目标持久性\n  短板: 探索策略/行为复杂度/自适应\n",
+    "raw": {
+      "cycles": 2506,
+      "alive": false,
+      "npc_count": 5
+    }
+  },
+  "population": {
+    "npc_births": 5,
+    "total_npcs": 5,
+    "npc_archetypes": [
+      {
+        "name": "隐士",
+        "spawn_cycle": 0,
+        "alive": true
+      },
+      {
+        "name": "探索者",
+        "spawn_cycle": 100,
+        "alive": true
+      },
+      {
+        "name": "贸易者",
+        "spawn_cycle": 334,
+        "alive": true
+      },
+      {
+        "name": "贸易者",
+        "spawn_cycle": 519,
+        "alive": true
+      },
+      {
+        "name": "贸易者",
+        "spawn_cycle": 736,
+        "alive": true
+      }
+    ]
+  }
+}

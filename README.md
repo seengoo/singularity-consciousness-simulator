@@ -180,7 +180,21 @@
 
 ## 五、快速开始
 
-### 交互模式
+### v3 规则实验版（推荐）
+
+```bash
+cd v3
+python main.py                     # 规则构建器 → GUI
+python main.py batch 10            # 批量测试10次
+python main.py eval                # 跨架构评估报告
+python main.py preset 暴君         # 直接跑预设架构
+```
+
+可用预设：纯随机、直线征服、螺旋探索、逃逸者、领土扫描、边界领主、资源猎人、壁虎、幽灵、暴君
+
+理论组合数：`10种移动 × 7种采集 × 4种反应 × 4种记忆 × 10种辅移动 = 11,200种`
+
+### v1/v2 经典版
 
 ```bash
 python singularity_sim.py interactive [world_type] [seed]
@@ -226,8 +240,33 @@ python singularity_demo.py single [seed]
 ```
 意识构架模拟器/
 ├── README.md                # 本文档
-├── singularity_sim.py       # 完整模拟器（交互+批量+对比）
-├── singularity_demo.py      # 轻量版（命令行批量）
+├── singularity_sim.py       # v1 完整模拟器（交互+批量+对比）
+├── singularity_demo.py      # v2 轻量版（命令行批量）
+├── v3/                      # v3 规则实验版（模块化重构）
+│   ├── main.py              #   入口（交互/批量/评估/预设）
+│   ├── engine.py            #   模拟引擎
+│   ├── core/                #   核心系统
+│   │   ├── world.py         #     世界（足迹/领地/资源）
+│   │   ├── singularity.py   #     奇点（生命周期）
+│   │   ├── observer.py      #     观察者（全知记录）
+│   │   ├── events.py        #     天灾引擎（5种事件）
+│   │   └── population.py    #     种群系统（PC+NPCs）
+│   ├── architectures/       #   行为架构
+│   │   ├── base.py          #     架构基类
+│   │   ├── rule_system.py   #     规则系统（10种规则组合）
+│   │   ├── component_system.py #   模块化组件系统
+│   │   ├── random_arch.py   #     随机基线（对照组）
+│   │   ├── curious_arch.py  #     好奇心架构
+│   │   └── homeostatic_arch.py # 内稳态架构
+│   ├── ui/
+│   │   └── main_window.py   #   tkinter可视化
+│   ├── reports/
+│   │   ├── run_report.py    #     运行报告
+│   │   ├── evaluation.py    #     跨架构评估
+│   │   └── consciousness_assessment.py # 意识涌现评估
+│   └── data/                #   运行数据存档
+├── docs/                    # 理论文档与会话记录
+│   └── session-2026-07-10-意识构架理论推演.md
 ├── 启动模拟器.bat           # Windows 启动器
 ├── 奇点模拟器.exe           # 独立可执行文件（无需 Python）
 └── .gitignore
